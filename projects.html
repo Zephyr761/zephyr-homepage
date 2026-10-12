@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf7f1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="description" content="Explore Zephyr Zhao's work in geometry-constrained 3D reconstruction, embodied AI, and applied computer vision.">
+  <title>Zephyr Zhao | Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-page="projects">
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header"><div class="shell header-inner">
+    <a class="brand" href="index.html" aria-label="Zephyr Zhao, home"><span class="brand-mark" aria-hidden="true">Z<span>Z</span><b>.</b></span><span class="brand-name">ZEPHYR ZHAO <small>Hanwen Zhao · official name</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation menu"><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation"><a href="index.html">Main <span>01</span></a><a href="my-info.html">My Info <span>02</span></a><a href="projects.html" aria-current="page">Projects <span>03</span></a></nav>
+    <a class="header-contact" href="mailto:hwzhao761@gmail.com">Contact <span aria-hidden="true">↗</span></a>
+  </div></header>
+
+  <main id="content">
+    <section class="page-hero shell"><div><p class="eyebrow"><span class="signal-dot"></span> 03 / PROJECTS</p><h1>Projects &amp; research<span class="period">.</span></h1><p class="page-lead">Current work in 3D vision, alongside earlier research and applied computer vision projects.</p></div><div class="page-hero-aside"><span>WORK INDEX</span><a href="#geometry">01 3D reconstruction <b>↗</b></a><a href="#egorecovery">02 EgoRecovery <b>↗</b></a><a href="#cassava">03 Cassava leaves <b>↗</b></a></div></section>
+
+    <section class="project-list shell">
+      <article class="project-case" id="geometry"><div class="project-visual project-visual-blue" aria-hidden="true"><div class="visual-caption">01 / 3D VISION</div><div class="geometry-diagram"><svg viewBox="0 0 480 300" focusable="false"><g class="geometry-rays"><path d="M55 178 191 84M55 178l136 115M422 92 286 84M422 92 286 293"/><path d="M55 178 191 188M422 92 286 188"/></g><g class="geometry-form"><path d="m191 84 95 0 62 55-95 0zM191 84v104l62 55V139M286 84v104l62 55V139M191 188h95l62 55h-95"/><path d="m191 84 62 55m33-55-95 104m157-49-95 104"/></g><g class="geometry-points"><circle cx="191" cy="84" r="4"/><circle cx="286" cy="84" r="4"/><circle cx="348" cy="139" r="4"/><circle cx="253" cy="139" r="4"/><circle cx="191" cy="188" r="4"/><circle cx="286" cy="188" r="4"/><circle cx="348" cy="243" r="4"/><circle cx="253" cy="243" r="4"/></g><g class="geometry-cameras"><rect x="24" y="146" width="62" height="62" rx="3"/><circle cx="55" cy="177" r="10"/><rect x="391" y="60" width="62" height="62" rx="3"/><circle cx="422" cy="91" r="10"/></g></svg></div><div class="visual-bottom">MULTIPLE VIEWS / ONE 3D SCENE</div></div><div class="project-copy"><div class="project-meta"><span>ONGOING RESEARCH</span><time datetime="2026-05">May 2026 — Present</time></div><h2>Geometry-Constrained<br>3D Reconstruction</h2><p class="project-summary">Exploring how multiple views and geometric structure can support consistent reconstruction of dynamic 3D scenes.</p><dl class="project-facts"><div><dt>Focus</dt><dd>3D vision and geometric consistency across viewpoints.</dd></div><div><dt>Question</dt><dd>How can visual observations form a coherent representation of a scene beyond any single camera view?</dd></div><div><dt>Status</dt><dd>Research in progress.</dd></div></dl><p class="project-note">Implementation details remain private while the research is in progress.</p></div></article>
+
+      <article class="project-case" id="egorecovery"><div class="project-visual project-visual-peach" aria-hidden="true"><div class="visual-caption">02 / EMBODIED INTELLIGENCE</div><div class="ego-diagram"><div class="ego-track"><span>HUMAN<br>DEMO</span><i></i><span>DATA<br>PIPELINE</span><i></i><span>ROBOT<br>RECOVERY</span></div><div class="ego-rings"><i></i><i></i><i></i></div></div><div class="visual-bottom">OBSERVE → LEARN → RECOVER</div></div><div class="project-copy"><div class="project-meta"><span>RESEARCH</span><time datetime="2026-03">Mar — May 2026</time></div><h2>EgoRecovery</h2><p class="project-summary">Using first-person human demonstrations to study how a robot can recover after an action fails.</p><dl class="project-facts"><div><dt>Challenge</dt><dd>Robots need more reliable ways to resume tasks from failure states.</dd></div><div><dt>My role</dt><dd>Collected cross-task human recovery demonstrations, established a data-cleaning process, and performed feature statistics and visualization.</dd></div><div><dt>Outcome</dt><dd>The broader research improved recovery success in real robot manipulation tasks; my data work supported subsequent model training.</dd></div></dl></div></article>
+
+      <article class="project-case" id="cassava"><div class="project-visual project-visual-green" aria-hidden="true"><div class="visual-caption">03 / APPLIED COMPUTER VISION</div><div class="leaf-diagram"><span class="leaf-shape">✦</span><div class="class-bars"><i></i><i></i><i></i><i></i><i></i></div><span class="result-badge">77.71%<small>ACCURACY</small></span></div><div class="visual-bottom">FIELD IMAGES / 5 CLASSES</div></div><div class="project-copy"><div class="project-meta"><span>COURSE PROJECT</span><time datetime="2025-10">Oct — Dec 2025</time></div><h2>Cassava Leaf Disease<br>Classification</h2><p class="project-summary">Compared deep learning approaches to classify five categories of cassava leaf disease in natural field images.</p><dl class="project-facts"><div><dt>Challenge</dt><dd>Class imbalance, changing light, and complex backgrounds make classification harder.</dd></div><div><dt>Method</dt><dd>Built ResNet50 and ViT training and evaluation pipelines; used transfer learning and augmentation; tested Bi-Tempered Logistic Loss.</dd></div><div><dt>Result</dt><dd>With stratified sampling and cross-validation, ResNet50 performed best overall, reaching 77.71% classification accuracy.</dd></div></dl></div></article>
+    </section>
+
+    <section class="contact-section shell"><div><p class="eyebrow">NEXT CONVERSATION</p><h2>Want to discuss any of this work?</h2><p>I would be glad to hear from you.</p></div><a class="button button-primary" href="mailto:hwzhao761@gmail.com">Contact me <span aria-hidden="true">↗</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="shell footer-inner"><span>© <span data-year>2026</span> Zephyr Zhao</span><div><a href="https://github.com/Zephyr761" target="_blank" rel="noopener noreferrer">GitHub ↗</a><a href="mailto:hwzhao761@gmail.com">Email ↗</a></div><span>Made with curiosity.</span></div></footer>
+</body>
+</html>
